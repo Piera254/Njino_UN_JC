@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+ <!-- link rel= "stylesheet", href ="styles.cssportfolio/portfolio.css"> -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of a junior developer – projects, skills, resume, and contact." />
+  <title>Peris Njeri | Junior Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- Header / Nav -->
+  <header class="site-header" role="banner">
+    <div class="container nav">
+      <a class="brand" href="#">Peris<span> Njeri</span></a>
+
+      <!-- Mobile Nav Toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" />
+      <label for="nav-toggle" class="hamburger" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" role="navigation" aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Junior Developer</p>
+          <h1>Hi, I’m <span class="accent">Peris</span> — I build clean, functional, user‑friendly apps.</h1>
+          <p class="sub">Frontend • Backend • Data Enthusiast</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View My Work</a>
+            <a class="btn ghost" href="#contact">Let’s Talk</a>
+          </div>
+          <ul class="meta-links" aria-label="Profiles">
+            <li><a href="#" aria-label="GitHub">GitHub ↗</a></li>
+            <li><a href="#" aria-label="LinkedIn">LinkedIn ↗</a></li>
+            <li><a href="#" aria-label="Twitter / X">Twitter ↗</a></li>
+          </ul>
+        </div>
+        <div class="hero-media" aria-hidden="true">
+          <div class="avatar" role="img" aria-label="Portrait placeholder"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            I’m a recent graduate passionate about solving real problems with code.
+            I love working across the stack and turning ideas into delightful, accessible experiences.
+            Currently exploring React, Node.js, and Python.
+          </p>
+          <p>
+            Beyond code, I share what I learn in short write‑ups and enjoy collaborating on open‑source.
+          </p>
+        </div>
+        <div>
+          <h3 class="mt-0">Tech Stack</h3>
+          <ul class="chip-list" aria-label="Tech stack">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Git</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured Projects</h2>
+          <p class="muted">A curated selection. Each card links to a live demo and repository.</p>
+        </div>
+
+        <div class="project-grid">
+          <!-- Project 1 -->
+          <article class="card project">
+            <div class="card-media skeleton" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>E‑commerce Store Clone</h3>
+              <p>A full‑stack app with auth, product search, and cart/checkout.</p>
+              <p class="stack">React • Node • MongoDB</p>
+              <div class="card-actions">
+                <a class="btn small" href="#">Live Demo</a>
+                <a class="btn small ghost" href="#">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card project">
+            <div class="card-media skeleton" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>REST API Starter</h3>
+              <p>Production‑ready REST API with JWT auth, rate limiting, and tests.</p>
+              <p class="stack">Node • Express • PostgreSQL</p>
+              <div class="card-actions">
+                <a class="btn small" href="#">Live Docs</a>
+                <a class="btn small ghost" href="#">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card project">
+            <div class="card-media skeleton" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>Data Viz Dashboard</h3>
+              <p>Interactive charts and filters for business KPIs with CSV import.</p>
+              <p class="stack">Python • Flask • D3.js</p>
+              <div class="card-actions">
+                <a class="btn small" href="#">Live Demo</a>
+                <a class="btn small ghost" href="#">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="card project">
+            <div class="card-media skeleton" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>Portfolio Website</h3>
+              <p>Accessible, responsive personal site using semantic HTML & CSS.</p>
+              <p class="stack">HTML • CSS • JS</p>
+              <div class="card-actions">
+                <a class="btn small" href="#">Live Site</a>
+                <a class="btn small ghost" href="#">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>Technical Skills</h2>
+          <ul class="list">
+            <li>Languages: JavaScript, Python, SQL</li>
+            <li>Frontend: HTML, CSS, React</li>
+            <li>Backend: Node.js, Express</li>
+            <li>Databases: PostgreSQL, MongoDB</li>
+            <li>Tools: Git/GitHub, VS Code, Postman</li>
+            <li>Testing: Jest, Playwright (basics)</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Soft Skills</h2>
+          <ul class="list">
+            <li>Communication & teamwork</li>
+            <li>Problem‑solving & debugging</li>
+            <li>Time management</li>
+            <li>Adaptability & continuous learning</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education -->
+    <section id="experience" class="section alt">
+      <div class="container">
+        <h2>Experience & Education</h2>
+        <div class="timeline">
+          <article class="t-item">
+            <h3>Junior Web Developer (Intern) — Company Name</h3>
+            <p class="t-meta">2024 • Nairobi, KE</p>
+            <ul>
+              <li>Built responsive components in React and improved Lighthouse scores by 20%.</li>
+              <li>Collaborated with designers and contributed to code reviews.</li>
+            </ul>
+          </article>
+          <article class="t-item">
+            <h3>BSc Computer Science — Your University</h3>
+            <p class="t-meta">Graduated 202X</p>
+            <ul>
+              <li>Final year project: Sentiment analysis app using NLP.</li>
+              <li>Clubs: Women in Tech, Google Developer Student Clubs.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="section">
+      <div class="container center">
+        <h2>Resume</h2>
+        <p class="muted">Grab a copy of my up‑to‑date resume.</p>
+        <a class="btn primary" href="#" download>Download PDF</a>
+      </div>
+    </section>
+
+
+<div class="container grid-2">
+    <div>
+        <h2>Contact</h2>
+        <p>Interested in working together? Drop a message — I’ll get back within 24–48 hours.</p>
+        <ul class="meta-links">
+            <li>Email: <a href="mailto:hello@example.com">hello@example.com</a></li>
+            <li>Location: Nairobi, Kenya</li>
+        </ul>
+    </div>
+    <form class="card form" action="#" method="post" aria-label="Contact form">
+        <label>
+            <span>Name</span>
+            <input name="name" type="text" placeholder="Your name" required minlength="2" />
+        </label>
+        <label>
+            <span>Email</span>
+            <input name="email" type="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+            <span>Message</span>
+            <textarea name="message" rows="4" placeholder="How can I help?" required minlength="10"></textarea>
+        </label>
+        <button class="btn primary" type="submit">Send Message</button>
+    </form>
+</div>
+</section>
+</main>
+
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>© <span id="y"></span> Peris Njeri • Built with ❤️ using semantic HTML & modern CSS</p>
+        <a href="#" class="back-to-top">Back to top ↑</a>
+    </div>
+</footer>
+
+
+<script>
+    // Update year
+    document.getElementById('y').textContent = new Date().getFullYear();
+</script>
+</body>
+
+</html>
